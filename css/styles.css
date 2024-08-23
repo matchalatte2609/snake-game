@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#loginScreen, #gameScreen {
+    text-align: center;
+}
+
+#gameScreen {
+    display: none;  
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 10px;  
+}
+
+#gameCanvas {
+    border: 2px solid #000;
+    background-color: #e0e0e0;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
